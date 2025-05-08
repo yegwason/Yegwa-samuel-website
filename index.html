@@ -1,116 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yegwa Samuel - Freelance Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yegwa Samuel | Python Developer</title>
   <style>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  header {
-    background-color: #222;
-    color: white;
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  header p {
-    font-style: italic;
-  }
-  .container {
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: auto;
-  }
-  .section {
-    margin-bottom: 2rem;
-  }
-  .section h2 {
-    color: #444;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.3rem;
-  }
-  .project {
-    background-color: white;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #222;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  a {
-    color: #0077cc;
-    text-decoration: none;
-    word-break: break-word;
-  }
-
-  /* Mobile Responsive Adjustments */
-  @media (max-width: 600px) {
-    header h1 {
-      font-size: 1.5rem;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     .container {
-      padding: 1rem 0.5rem;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .section h2 {
-      font-size: 1.2rem;
+    section {
+      margin-bottom: 40px;
     }
-    .project {
-      padding: 0.8rem;
+    .btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
     }
-  }
-</style>
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Yegwa Samuel</h1>
-    <p>Python Developer | Tech Innovator | Freelancer</p>
-  </header>
-
-  <div class="container">
-    <section class="section">
+    <p>Python Developer & Freelancer</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="Yegwa_Samuel_Resume.pdf" class="btn" download>Download Resume</a>
+  </nav>  <div class="container">
+    <section id="about">
       <h2>About Me</h2>
-      <p>
-        Hi, I’m a Python developer passionate about building smart and innovative tech projects. I specialize in backend development, automation, and creating useful tools with clean code.
-      </p>
-    </section>
+      <p>I am a freelance Python developer based in Benin City, Nigeria. I specialize in building practical Python tools for clients and personal projects. My interests include automation, scripting, DIY electronics, and web development.</p>
+      <p>My freelance journey includes helping individuals and small businesses solve real problems—like building custom scripts for data automation and generating professional invoices.</p>
+    </section><section id="projects">
+  <h2>Featured Projects</h2>
 
-    <section class="section">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Smart Glasses Prototype</h3>
-        <p>A wearable project inspired by Tony Stark's tech. Includes AI assistant and modular tools.</p>
-      </div>
-      <div class="project">
-        <h3>Mini Earpod Charger</h3>
-        <p>Custom-built charging device for a single earpod using its contact points.</p>
-      </div>
-    </section>
+  <h3>Automated Invoice Generator</h3>
+  <p>Developed a Python script that uses <code>pandas</code> and <code>ReportLab</code> to create PDF invoices automatically from client data. Used during freelance work to simplify billing and ensure professionalism.</p>
 
-    <section class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:samuelsonyegwa122@gmail.com">samuelsonyegwa122@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/yegwason" target="_blank">github.com/yegwason</a></p>
-    </section>
-  </div>
+  <h3>Freelance Python Projects</h3>
+  <p>Completed multiple freelance jobs involving data extraction, web scraping, file conversion, and simple websites. These tasks were completed remotely and tailored to each client's unique needs.</p>
 
-  <footer>
-    &copy; 2025 Yegwa Samuel
+  <h3>Smart Glasses Prototype</h3>
+  <p>Inspired by EDITH from Spider-Man, this Raspberry Pi-powered wearable combines object recognition and voice assistant capabilities for a futuristic user experience.</p>
+
+  <h3>Mini Earpod Charging Module</h3>
+  <p>Designed a compact charging module for a single earpod using direct contact points, useful in electronics repair and custom DIY charging stations.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> samuelsonyegwa122@gmail.com</p>
+  <p><strong>Phone:</strong> 09039575118</p>
+  <p><strong>Location:</strong> Benin City, Nigeria</p>
+</section>
+
+  </div>  <footer>
+    <p>&copy; 2025 Yegwa Samuel. All rights reserved.</p>
   </footer>
 </body>
 </html>
